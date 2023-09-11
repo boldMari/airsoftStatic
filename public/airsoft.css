@@ -1,0 +1,133 @@
+:root {
+    --primary: #fddb51;
+    --primary-rgb: 253, 219, 81;
+    --primary-hover: #fdcf15;
+
+    --bs-primary: var(--primary) !important;
+    --bs-primary-rgb: var(--primary-rgb) !important;
+    --bs-link-color-rgb: var(--primary-rgb) !important;
+
+    /* --bs-emphasis-color: var(--primary); */
+    /* --bs-emphasis-color-rgb: var(--primary-rgb) !important; */
+    /* --bs-link-hover-color: var(--primary) !important; */
+    /* --bs-link-hover-color-rgb: var(--primary-rgb) !important; */
+    /* --bs-navbar-hover-color: var(--primary-rgb) !important; */
+    /* --bs-nav-link-hover-color: var(--primary) !important; */
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--primary) !important;
+    --bs-btn-border-color: var(--primary) !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--primary-hover) !important;
+    --bs-btn-hover-border-color: var(--primary-hover) !important;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--primary-hover) !important;
+    --bs-btn-active-border-color: var(--primary-hover) !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--primary-hover) !important;
+    --bs-btn-disabled-border-color: var(--primary-hover) !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, 
+    .btn-primary:not(:disabled):not(.disabled):active, 
+    .show>.btn-primary.dropdown-toggle{
+        color: #fff;
+        background-color: #F7B432;
+        border-color: #F7B432;
+    }
+
+
+
+.cover {
+    object-fit: cover;
+    /* object-position: top; */
+    object-position: center;
+}
+
+.navbar .nav-link {
+    font-size: 1.2rem;
+}
+
+[data-bs-theme=dark] .carousel .carousel-caption, 
+[data-bs-theme=dark].carousel .carousel-caption {
+    background: rgba(0,0,0,0.5);
+    border-radius: 0.5rem;
+    font-size: 22px;
+}
+
+.carousel h5 {
+    font-size: 2.25rem;
+}
+
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], 
+[data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+    background-color: var(--primary) !important;
+}
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("images/bullet_left.svg") !important;
+ filter: none !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("images/bullet_right.svg") !important;
+  filter: none !important;
+}
+
+.maps iframe {
+    width: 100%;
+}
+
+ul.bullet {
+    list-style: none;
+}
+
+ul.bullet li {
+    padding-left: 2.5rem;
+    background: url(images/bullet.svg) 0 0 no-repeat;
+    background-size: 1.5rem;
+}
+
+
+p.location {
+    padding-left: 2.5rem;
+    background: url(images/location.svg) 0 0 no-repeat;
+    background-size: 1.5rem;
+}
+
+p.mail {
+    padding-left: 2.5rem;
+    background: url(images/mail.svg) 0 0 no-repeat;
+    background-size: 1.5rem;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 3px black;
+}
+
+.carousel-item img {
+    height: auto;
+    max-height: 600px;
+}
+
+.row {
+    margin: 15px;
+  }
+
+/*.btn-primary:not(:disabled):not(.disabled).active, 
+    .btn-primary:not(:disabled):not(.disabled):active, 
+    .show>.btn-primary.dropdown-toggle{
+        color: #fff;
+        background-color: #F7B432;
+        border-color: #F7B432;
+    }*/
+    
